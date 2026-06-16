@@ -165,4 +165,4 @@ No build or environment configuration is required.
 
 ## 📄 License
 
-Released under the [MIT License](LICENSE) — free to use the structure for your own portfolio. Please swap out the personal content (name, bio, photos, résumé, links) for your own.
+Released under the [MIT License](LICENSE) — free to use the structure for your own portfolio.
