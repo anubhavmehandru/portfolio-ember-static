@@ -2,6 +2,8 @@
 
 A fast, responsive, single-page developer portfolio built with **pure HTML, CSS, and vanilla JavaScript** — no frameworks, no build step, no dependencies. **The entire site renders from one config file** ([`config.js`](config.js)), so you can make it yours in a few minutes without touching any "real" code.
 
+🔗 **Live demo:** [anubhavmehandru.github.io/portfolio-ember-static](https://anubhavmehandru.github.io/portfolio-ember-static/)
+
 ![Built with HTML, CSS & JavaScript](https://img.shields.io/badge/built%20with-HTML%20%C2%B7%20CSS%20%C2%B7%20JS-ff5a2c) ![No build step](https://img.shields.io/badge/build%20step-none-success) ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 
 ---
