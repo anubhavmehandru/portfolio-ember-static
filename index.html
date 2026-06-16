@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Software engineer portfolio." />
+  <title>Portfolio</title>
+
+  <!-- Favicon (the logo in the browser tab). Edit assets/favicon.svg, or replace
+       it with your own. To also support iOS home-screen icons and older browsers,
+       add a 512x512 assets/favicon.png and uncomment the two lines below. -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <!-- <link rel="icon" type="image/png" href="assets/favicon.png" /> -->
+  <!-- <link rel="apple-touch-icon" href="assets/favicon.png" /> -->
+
+  <!-- Fonts: distinctive pairing — Bricolage Grotesque (display), Hanken Grotesk (body), JetBrains Mono (labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Hanken+Grotesk:ital,wght@0,300..800;1,400..600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Atmosphere layers -->
+  <div class="grain" aria-hidden="true"></div>
+  <div class="mesh" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- Everything below is rendered from config.js -->
+  <header id="site-nav"></header>
+  <main id="app"></main>
+  <footer id="site-footer"></footer>
+
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
